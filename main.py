@@ -65,7 +65,7 @@ def save_multi_file(source_code_json, output_dir):
 
 def main():
     # User-provided contract address
-    API_KEY = input("Enter the API key: ").strip()
+    API_KEY = input("Enter the etherscan.io API key: ").strip()
     contract_address = input("Enter the contract address: ").strip()
     output_dir = "contracts"  # Directory for multi-part source code
 
